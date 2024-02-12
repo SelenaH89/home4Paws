@@ -1,0 +1,29 @@
+.banner .swiper {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 30%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.banner .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.dog-name {
+  position: absolute;
+  bottom: 50px; /* Podesite po potrebi */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white; /* Ili bilo koja boja koja se ističe na vašoj slici */
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5); /* Opciono, za bolju čitljivost */
+  padding: 5px;
+  border-radius: 5px;
+}
